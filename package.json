@@ -1,0 +1,40 @@
+{
+  "name": "tiptap-extension-formula",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "package.json"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "lib": "npx rollup --c rollup.config.js --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingshaohua-cn/tiptap-extension-dot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dingshaohua-cn/tiptap-extension-dot/issues"
+  },
+  "homepage": "https://github.com/dingshaohua-cn/tiptap-extension-dot#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "postcss": "^8.4.21",
+    "rollup": "^3.17.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "dependencies": {
+    "@tiptap/core": "^2.0.0-beta.218",
+    "@tiptap/pm": "^2.0.0-beta.218"
+  }
+}
